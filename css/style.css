@@ -523,11 +523,23 @@ Hero section
 .intro-img-box h4 {
 	position: absolute;
 	left: 0;
+	bottom: 0;
+	display: inline-block;
+	padding: 15px 25px;
+	font-weight: 700;
+	background: #000000;
+	color: #ffffff;
+}
+
+.intro-img-box h5 {
+	position: absolute;
+	right: 0;
 	top: 0;
 	display: inline-block;
-	padding: 22px 42px;
+	padding: 10px 20px;
 	font-weight: 700;
-	background: #fff;
+	background: #521717;
+	color: #ffffff;
 }
 
 .intro-text-box {
@@ -899,7 +911,7 @@ Other Pages
  =================*/
 
 .page-top-section {
-	height: 500px;
+	height: 100vh;
 	position: relative;
 }
 

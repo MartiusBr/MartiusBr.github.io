@@ -75,7 +75,12 @@ ol {
 /*---------------------
 Helper CSS
  -----------------------*/
-.proyect-card{
+ .topo .site-btn:hover {
+	background: rgba(126, 4, 4, 0.65);
+	color: #EEEEFF;
+ }
+
+ .proyect-card{
 	min-width: 300px;
 	max-width: 320px;
 	height: 400px;
@@ -123,7 +128,7 @@ Helper CSS
 	height: 25px;
 	left: 0;
 	top: 11px;
-	background: #12c7b8;
+	background: crimson;
 	line-height: 1;
 }
 
@@ -165,23 +170,40 @@ Commom elements
 
 /* buttons */
 
+.site-btn-tp::selection{
+	background: rgb(0, 0, 0);
+}
+
 .site-btn {
 	display: inline-block;
-	border: 1px solid #12c7b8;
+	border: 1px solid crimson;
 	font-size: 14px;
 	font-weight: 600;
 	min-width: 131px;
 	padding: 14px 25px;
 	text-transform: uppercase;
 	background: transparent;
-	color: #12c7b8;
+	color: crimson;
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
 }
 
+.site-btn-tp {
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 10px;
+	color: rgb(0, 0, 0);
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	background: #EEEEFF;
+}
+
 .site-btn:hover {
-	color: #12c7b8;
+	color: crimson;
 }
 
 .site-btn.sb-big {
@@ -199,7 +221,7 @@ Commom elements
 }
 
 .site-btn.sb-solid {
-	background: #12c7b8;
+	background: crimson;
 	color: #fff;
 }
 
@@ -451,14 +473,14 @@ Hero section
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background: #12c7b8;
+	background: crimson;
 	color: #fff;
 	font-size: 40px;
 }
 
 .hero-slider .owl-nav button.owl-next {
 	background: #fff;
-	color: #12c7b8;
+	color: crimson;
 }
 
 .hero-nav-slider-warp {
@@ -499,7 +521,7 @@ Hero section
 
 .hero-nav-slider .current .hns-item {
 	background: #fff;
-	border-left: 4px solid #12c7b8;
+	border-left: 4px solid crimson;
 }
 
 .hero-nav-slider .current .hns-item h5,
@@ -558,7 +580,7 @@ Hero section
 	display: inline-block;
 	padding: 15px 25px;
 	font-weight: 700;
-	background: #000000;
+	background: rgba(0, 0, 0, 0.65);
 	color: #ffffff;
 }
 
@@ -569,7 +591,7 @@ Hero section
 	display: inline-block;
 	padding: 10px 20px;
 	font-weight: 700;
-	background: #521717;
+	background: crimson;
 	color: #ffffff;
 }
 
@@ -669,7 +691,7 @@ Design section
 .design-slider .owl-nav button.owl-prev:hover,
 .property-features-slider .owl-nav button.owl-next:hover,
 .property-features-slider .owl-nav button.owl-prev:hover {
-	background: #12c7b8;
+	background: crimson;
 	color: #fff;
 }
 
@@ -722,7 +744,7 @@ Location section
 	text-align: center;
 	padding-top: 33px;
 	border-radius: 50%;
-	background: #12c7b8;
+	background: crimson;
 	z-index: 2;
 }
 
@@ -785,7 +807,7 @@ Features section
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background: #12c7b8;
+	background: crimson;
 	color: #fff;
 	font-size: 20px;
 	margin: 50px 5px 0;
@@ -813,8 +835,8 @@ Features section
 	height: 100%;
 	left: 50%;
 	top: 0;
-	border-bottom: 2px solid #12c7b8;
-	border-top: 2px solid #12c7b8;
+	border-bottom: 2px solid crimson;
+	border-top: 2px solid crimson;
 }
 
 .feature-box::before {
@@ -822,8 +844,8 @@ Features section
 	height: 0%;
 	top: 50%;
 	left: 0;
-	border-left: 2px solid #12c7b8;
-	border-right: 2px solid #12c7b8;
+	border-left: 2px solid crimson;
+	border-right: 2px solid crimson;
 }
 
 .feature-box:hover::after {
@@ -837,7 +859,7 @@ Features section
 }
 
 .feature-box:hover i {
-	color: #12c7b8;
+	color: crimson;
 }
 
 .feature-box i {
@@ -998,14 +1020,14 @@ About page
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background: #12c7b8;
+	background: crimson;
 	color: #fff;
 	font-size: 40px;
 }
 
 .about-slider .owl-nav button.owl-next {
 	background: #fff;
-	color: #12c7b8;
+	color: crimson;
 }
 
 .milestone-warp {
@@ -1029,7 +1051,7 @@ About page
 
 .milestone-warp .milestone h2 {
 	font-size: 96px;
-	color: #12c7b8;
+	color: crimson;
 	font-weight: 300;
 	margin-bottom: 10px;
 }
@@ -1069,7 +1091,7 @@ About page
 	font-weight: 700;
 	text-align: center;
 	padding-top: 15px;
-	background: #12c7b8;
+	background: crimson;
 }
 
 .team-member .member-info {
@@ -1297,7 +1319,7 @@ Blog page
 }
 
 .blog-categorise a:hover {
-	color: #12c7b8;
+	color: crimson;
 }
 
 .blog-search {
@@ -1345,7 +1367,7 @@ Blog page
 	text-align: center;
 	padding-top: 25px;
 	border-radius: 50%;
-	background: #12c7b8;
+	background: crimson;
 	z-index: 2;
 }
 
@@ -1370,7 +1392,7 @@ Blog page
 
 .blog-content .blog-note {
 	color: #fff;
-	background: #12c7b8;
+	background: crimson;
 }
 
 .blog-content h2 {
@@ -1616,7 +1638,7 @@ html .ui-button.ui-state-disabled:active {
 
 .search-btn button[type=submit] {
 	font-weight: 400;
-	background: #12c7b8;
+	background: crimson;
 	border: none;
 	border-radius: 0 14px 14px 0;
 	cursor: pointer;

@@ -146,6 +146,15 @@ $(window).on('load', function() {
 		margin: 30,
 		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 	});
+
+	$('.topologia-car').owlCarousel({
+		loop: true,
+		nav: true,
+		dots:false,
+		items: 3,
+		autoWidth:true,
+		margin: 10,
+	});
 	
 
 	/*------------------

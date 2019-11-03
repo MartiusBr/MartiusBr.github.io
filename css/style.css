@@ -75,11 +75,35 @@ ol {
 /*---------------------
 Helper CSS
  -----------------------*/
+.proyect-card{
+	min-width: 300px;
+	max-width: 320px;
+	height: 400px;
+	background-image: url('/img/property-gallery/1.jpg');
+	background-position: center;
+	padding: 0px;
+	margin-bottom: 2em;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.hover-card{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.centered-btn-card{
+	position: absolute;
+	top:50%;
+	left: 30%;
+	visibility: hidden;
+}
 .hover-card:hover {
 	background: rgba(0, 0, 0, 0.65);
 }
 
-.hover-card:hover .show{
+.hover-card:hover .centered-btn-card{
 	visibility: visible;
 }
 
@@ -1382,7 +1406,7 @@ Blog page
 .filter-form {
 	border-radius: 14px;
 	background: #fff;
-	height: 115px;
+	height: 75px;
 	-webkit-box-shadow: 2px 15px 30px rgba(0, 0, 0, 0.1);
 	box-shadow: 2px 15px 30px rgba(0, 0, 0, 0.1);
 }
@@ -1390,7 +1414,7 @@ Blog page
 .location {
 	border-right: 1px solid #F3F3F3;
 	float: left;
-	padding: 20px 27px 29px;
+	padding: 0px 27px ;
 	width: 25%;
 }
 
@@ -1429,7 +1453,7 @@ Blog page
 .search-type {
 	border-right: 1px solid #F3F3F3;
 	float: left;
-	padding: 20px 27px 29px;
+	padding: 0px 27px 0px;
 	width: 25%;
 }
 
@@ -1596,7 +1620,7 @@ html .ui-button.ui-state-disabled:active {
 	border: none;
 	border-radius: 0 14px 14px 0;
 	cursor: pointer;
-	padding: 42px 40px 43px 31px;
+	/* padding: 42px 40px 43px 31px; */
 	display: inline-block;
 	font-size: 18px;
 	color: #fff;

@@ -75,6 +75,13 @@ ol {
 /*---------------------
 Helper CSS
  -----------------------*/
+.hover-card:hover {
+	background: rgba(0, 0, 0, 0.65);
+}
+
+.hover-card:hover .show{
+	visibility: visible;
+}
 
 .section-title h2 {
 	font-size: 36px;
@@ -111,8 +118,8 @@ Helper CSS
 }
 
 .spad {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
 .text-white h1,
@@ -1775,7 +1782,7 @@ Social Buttons
 }
 
 .social ul li.youtube a:hover {
-    background: #da2d2e;
+    background: #2dda67;
 }
 
 .social ul li.instagram a:hover {

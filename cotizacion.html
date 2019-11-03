@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-	<title>LAPPSA</title>
+	<title>Cotización</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Real estate html template">
 	<meta name="keywords" content="real estate, html">
@@ -18,6 +18,7 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/nice-select.css" type="text/css">
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/flaticon.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
@@ -42,28 +43,28 @@
 
 	<!-- Social Buttons -->
 	<div class="social">
-			<ul>
-				<li class="facebook">
-					<a href="#" target="_blank">
-							<i class="fa fa-facebook fa-2x rot"></i>
-					</a>
-				</li>
-				<li class="twitter">
-					<a href="#" target="_blank">
-						<i class="fa fa-twitter fa-2x rot"></i>
-					</a>
-				</li>
-				<li class="youtube">
-					<a href="https://api.whatsapp.com/send?phone=924774449&text=!Info" target="_blank">
-						<i class="fa fa-whatsapp fa-2x rot"></i>
-					</a>
-				</li>
-				<li class="instagram">
-					<a href="#" target="_blank">
-						<i class="fa fa-instagram fa-2x rot"></i>
-					</a>
-				</li>
-			</ul>
+		<ul>
+			<li class="facebook">
+				<a href="#" target="_blank">
+						<i class="fa fa-facebook fa-2x rot"></i>
+				</a>
+			</li>
+			<li class="twitter">
+				<a href="#" target="_blank">
+					<i class="fa fa-twitter fa-2x rot"></i>
+				</a>
+			</li>
+			<li class="youtube">
+				<a href="https://api.whatsapp.com/send?phone=924774449&text=!Info" target="_blank">
+					<i class="fa fa-whatsapp fa-2x rot"></i>
+				</a>
+			</li>
+			<li class="instagram">
+				<a href="#" target="_blank">
+					<i class="fa fa-instagram fa-2x rot"></i>
+				</a>
+			</li>
+		</ul>
 	</div>
 	<!-- End Social Buttons -->
 
@@ -90,113 +91,110 @@
 	<!-- Header section end -->
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="img/page-top-bg/3.jpg">
+	<section style="height:300px;background-color: black;" class="page-top-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5">
-					<div class="page-top-text text-white">
-						<h2>Blog</h2>
+				<div class="col-lg-12">
+					<div style="padding-top: 100px" class="text-white">
+						<h1 class="text-center">Cotización</h1>
+						<h3 class="text-center">Proyectos en venta</h3>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="hero-social-warp">
-			<div class="hero-social">
-				<a href=""><i class="fa fa-facebook"></i></a>
-				<a href=""><i class="fa fa-linkedin"></i></a>
-				<a href=""><i class="fa fa-twitter"></i></a>
-				<a href=""><i class="fa fa-youtube-play"></i></a>
-				<a href=""><i class="fa fa-instagram"></i></a>
 			</div>
 		</div>
 	</section>
 	<!-- Page top section end -->
+	<!-- Filter -->
+	<div style="background-color: black;" class="filter-search">
+			<div class="container ">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<form class="filter-form ml-auto mr-auto">
+							<div class="location">
+								<p>Distrito</p>
+								<select class="filter-location">
+									<option value="">Distrito1</option>
+									<option value="">Distrito2</option>
+									<option value="">Distrito3</option>
+								</select>
+							</div>
+							<div class="search-type">
+								<p>Proyecto</p>
+								<select class="filter-property">
+									<option value="">proyecto1</option>
+									<option value="">proyecto1</option>
+									<option value="">proyecto1</option>
+								</select>
+							</div>
+							<div class="search-type">
+								<p>Estado</p>
+								<select class="filter-property">
+									<option value="">estado1</option>
+									<option value="">estado2</option>
+									<option value="">estado3</option>
+								</select>
+							</div>
+							<div class="search-btn">
+								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i>Search</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- Filter End -->
 
-	<!-- Blog section-->
-	<section class="blog-section spad">
+	<section id="proyectos" class="mt-5">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-					<div class="blog-categorise">
-						<a href="">Noticias</a>
-						<a href="">Arquitectura</a>
-						<a href="">Diseño</a>
-					</div>
+			<div class="row justify-content-center">
+				<div style="min-width: 300px;max-width: 320px;height: 400px;background-image: url('/img/property-gallery/1.jpg');background-position: center;" class="col-md-4 mx-2 mb-3 p-0">
+					<a style="position: absolute;width: 100%;height: 100%;" href="eleganza.html" class="hover-card">
+						<div class="intro-img-box h-100">
+								<h4>Eleganza</h4>
+								<h5>En construcción</h5>
+						</div>	
+					</a>
 				</div>
-				<div class="col-lg-4">
-					<form class="blog-search">
-						<input type="text" placeholder="Buscar en el blog">
-						<button><img src="img/search.png" alt=""></button>
-					</form>
+				<div style="min-width: 300px;max-width: 320px;height: 400px;background-image: url('/img/property-gallery/santa-sofia.png');background-position: center;" class="col-md-4 mx-2 mb-3 p-0">
+					<a style="position: absolute;width: 100%;height: 100%;" href="santa-sofia.html" class="hover-card">
+							<div class="intro-img-box h-100">
+									<h4>Santa Sofía</h4>
+									<h5>Preventa</h5>
+							</div>	
+							<h2  style="position: absolute;top:50%;left: 30%;visibility: hidden;" class="show">Ver proyecto</h2>
+							<!-- <div id="boton" style="position: absolute;top:50%;left: 30%;visibility: hidden;" class="site-btn">Aquí</div> -->
+					</a>
 				</div>
-			</div>
-			<div class="blog-item">
-				<div class="row">
-					<div class="col-lg-4 col-md-5">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/1.jpg"></div>
-					</div>
-					<div class="col-lg-8 col-md-7">
-						<div class="blog-content">
-							<div class="blog-date">25 de Agosto del 2019</div>
-							<!-- <div class="blog-note">Featured</div> -->
-							<h2>Donec hendrerit id lectus vel vehicula</h2>
-							<p>In vel dignissim tellus, a ultrices magna. Curabitur dignissim fringilla felis sed
-								vulputate. Donec fringilla massa enim, ut sodales massa venenatis eget. Nunc et orci
-								libero. Aliquam sodales felis nunc, vitae varius nunc tristique non. Sed id fringil-la
-								nibh. Cras finibus, orci at ultrices imperdiet, dui lectus lacinia nibh rcu eget
-								tincidunt viverra. Nullam sagittis arcu nec vulputate cursus. Quisque venenatis ultrices
-								vestibulum. </p>
-							<a href="#" class="site-btn">LEER MÁS</a>
-						</div>
-					</div>
+				<div style="min-width: 300px;max-width: 320px;height: 400px;background-image: url('/img/property-gallery/3.jpg');background-position: center;" class="col-md-4 mx-2 mb-3 p-0">
+					<a style="position: absolute;width: 100%;height: 100%;" href="ricardo-agulo.html" class="hover-card">
+							<div class="intro-img-box h-100">
+									<h4>Ricardo Angúlo</h4>
+									<h5>En construcción</h5>
+							</div>	
+					</a>
+				</div>
+				<!-- <div style="min-width: 300px;height: 500px;background-color: rgb(96, 5, 99);" class="col-md-4 m-2"> -->
+
 				</div>
 			</div>
-			<div class="blog-item">
-				<div class="row">
-					<div class="col-lg-4 col-md-5">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/2.jpg"></div>
-					</div>
-					<div class="col-lg-8 col-md-7">
-						<div class="blog-content">
-							<div class="blog-date">25 de Agosto del 2019</div>
-							<h2>Vivamus sagittis est quis bibendum volutpat Maecenas maximus tellus non nisl alec</h2>
-							<p>In vel dignissim tellus, a ultrices magna. Curabitur dignissim fringilla felis sed
-								vulputate. Donec fringilla massa enim, ut sodales massa venenatis eget. Nunc et orci
-								libero. Aliquam sodales felis nunc, vitae varius nunc tristique non. Sed id fringilla
-								nibh. </p>
-							<a href="#" class="site-btn">LEER MÁS</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="blog-item">
-				<div class="row">
-					<div class="col-lg-4 col-md-5">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/3.jpg">
-							<a href="" class="play-btn"><img src="img/play-icon.png" alt=""></a>
-						</div>
-					</div>
-					<div class="col-lg-8 col-md-7">
-						<div class="blog-content">
-							<div class="blog-date">25 de Agosto del 2019</div>
-							<h2>bibendum volutpat Maecenas maximus tellus non nisl alec</h2>
-							<p>In vel dignissim tellus, a ultrices magna. Curabitur dignissim fringilla felis sed
-								vulputate. Donec fringilla massa enim, ut sodales massa venenatis eget. Nunc et orci
-								libero. Aliquam sodales felis nunc, vitae varius nunc tristique non. Sed id fringil-la
-								nibh. Cras finibus, orci at ultrices imperdiet, dui lectus lacinia nibh rcu eget
-								tincidunt viverra. Nullam sagittis arcu nec vulputate cursus. Quisque venenatis ultrices
-								vestibulum. </p>
-							<a href="#" class="site-btn">LEER MÁS</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="text-center pt-4">
-				<button class="site-btn sb-solid">LOAD MORE</button>
-			</div> -->
 		</div>
 	</section>
-	<!-- Blog section end-->
+
+
+
+	<!-- Subscribe section -->
+	<section style="background-color:#30304e" class="call-to-action-section set-bg">
+		<div class="container text-white text-center">
+			<img src="img/message.png" alt="">
+			<h2 class="mt-3">Suscribete a nuestro NewsLetter <br> y recibe nuestras ofertas exclusivas</h2>
+			<!-- <button class="site-btn sb-light sb-big">CALL 800-1-5141</button> -->
+			<form>
+				<input class="ns-input" type="text" placeholder="Dirección de Correo">
+				<button type="submit" class="site-btn news-btn">Suscríbete!</button>
+			</form>
+		</div>
+	</section>
+	<!-- Subscribe section end-->
 
 	<!-- Footer section -->
 	<footer class="footer-section">
@@ -265,6 +263,7 @@
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>

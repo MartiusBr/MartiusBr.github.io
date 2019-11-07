@@ -187,6 +187,7 @@ Commom elements
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
+	backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-btn-tp {

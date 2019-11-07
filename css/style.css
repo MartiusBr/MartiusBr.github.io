@@ -188,6 +188,7 @@ Commom elements
 	cursor: pointer;
 	text-align: center;
 	backdrop-filter: saturate(180%) blur(20px);
+	border-bottom: 1px rgb(75, 75, 87);
 }
 
 .site-btn-tp {

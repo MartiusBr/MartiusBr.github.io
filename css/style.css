@@ -354,7 +354,8 @@ Header section
 	top: 0;
 	padding: 10px 35px 6px;
 	z-index: 99;
-	background: rgba(0, 0, 0, 0.65);
+	background: rgba(29,29,31,0.7);
+	backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-logo {

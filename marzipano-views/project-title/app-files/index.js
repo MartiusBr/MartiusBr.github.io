@@ -19,7 +19,7 @@
   var Marzipano = window.Marzipano;
   var bowser = window.bowser;
   var screenfull = window.screenfull;
-  var data = window.data;
+  var data = window.APP_DATA;
 
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
@@ -72,7 +72,7 @@
 
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
-    var urlPrefix = "//www.marzipano.net/media";
+    var urlPrefix = "tiles";
     var source = Marzipano.ImageUrlSource.fromString(
       urlPrefix + "/" + data.id + "/{z}/{f}/{y}/{x}.jpg",
       { cubeMapPreviewUrl: urlPrefix + "/" + data.id + "/preview.jpg" });
@@ -359,11 +359,8 @@
 
   // Prevent touch and scroll events from reaching the parent element.
   function stopTouchAndScrollEventPropagation(element, eventList) {
-    var eventList = [
-      'touchstart', 'touchmove', 'touchend', 'touchcancel',
-      'pointerdown', 'pointermove', 'pointerup', 'pointercancel',
-      'wheel'
-    ];
+    var eventList = [ 'touchstart', 'touchmove', 'touchend', 'touchcancel',
+                      'wheel', 'mousewheel' ];
     for (var i = 0; i < eventList.length; i++) {
       element.addEventListener(eventList[i], function(event) {
         event.stopPropagation();

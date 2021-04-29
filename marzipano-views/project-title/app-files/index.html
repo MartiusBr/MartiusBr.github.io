@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sample Tour | Marzipano</title>
-<meta name="description" content="A sample 360° tour created by the Marzipano Tool." />
+<title>Project Title</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="//www.marzipano.net/demos/common/reset.css">
+<link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="multiple-scenes view-control-buttons">
+<body class="single-scene ">
 
 <div id="pano"></div>
 
 <div id="sceneList">
   <ul class="scenes">
-    <a href="javascript:void(0)" class="scene" data-id="oriente-station">
-      <li class="text">Oriente Station</li>
-    </a>
-    <a href="javascript:void(0)" class="scene" data-id="electricity-museum">
-      <li class="text">Electricity Museum</li>
-    </a>
-    <a href="javascript:void(0)" class="scene" data-id="jeronimos">
-      <li class="text">Jerónimos Monastery</li>
-    </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-tu09tpc-a-large-bed-in-a-room">
+        <li class="text">tu09tpc-a-large-bed-in-a-room</li>
+      </a>
+    
   </ul>
 </div>
 
@@ -65,9 +60,9 @@
   <img class="icon" src="img/minus.png">
 </a>
 
-<script src="//www.marzipano.net/demos/common/screenfull.js" ></script>
-<script src="//www.marzipano.net/demos/common/bowser.js" ></script>
-<script src="../../build/marzipano.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
 
 <script src="data.js"></script>
 <script src="index.js"></script>
